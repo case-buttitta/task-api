@@ -24,7 +24,7 @@ paths:
           required: false
           description: Include to list tasks marked as completed (true) or incomplete (false)
           schema:
-            type: integer
+            type: boolean
       responses:
         '200':
           description: OK
